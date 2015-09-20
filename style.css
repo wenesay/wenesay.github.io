@@ -1,0 +1,44 @@
+/* style.css */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+div {
+    width: 20px;
+    height: 20px;
+    margin-left: -20px;
+    margin-top: -20px;
+    border-radius: 50%;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 20px;}
+    to {left: 100%;}
+
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 20px;}
+    to {left: 100%;}
+
+    0%   {background-color:red; left:20px; top:20px;}
+    25%  {background-color:yellow; left:100%; top:20px;}
+    50%  {background-color:blue; left:100%; top:100%;}
+    75%  {background-color:green; left:20px; top:100%;}
+    100% {background-color:red; left:20px; top:20px;}
+}
