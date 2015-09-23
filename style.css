@@ -31,8 +31,7 @@ div#center {
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-
-    0%   {background-color:red; left:20px; top:20px;}
+    0%  {background-color:red; left:20px; top:20px;}
     25%  {background-color:yellow; left:100%; top:20px;}
     50%  {background-color:blue; left:100%; top:100%;}
     75%  {background-color:green; left:20px; top:100%;}
@@ -41,8 +40,7 @@ div#center {
 
 /* Standard syntax */
 @keyframes mymove {
-
-    0%   {background-color:red; left:20px; top:20px;}
+    0%  {background-color:red; left:20px; top:20px;}
     25%  {background-color:yellow; left:100%; top:20px;}
     50%  {background-color:blue; left:100%; top:100%;}
     75%  {background-color:green; left:20px; top:100%;}
