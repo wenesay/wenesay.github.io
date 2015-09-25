@@ -10,8 +10,8 @@ body {
 div#sweeper {
     width: 15px;
     height: 15px;
-    margin-left: -20px;
-    margin-top: -20px;
+    margin-left: -15px;
+    margin-top: -15px;
     border-radius: 50%;
     background-color: red;
     font-weight: bold;
@@ -31,18 +31,18 @@ div#center {
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    0%  {background-color:#7B3E3E; left:20px; top:20px;}
-    25%  {background-color:#447B3E; left:100%; top:20px;}
+    0%  {background-color:#7B3E3E; left:15px; top:15px;}
+    25%  {background-color:#447B3E; left:100%; top:15px;}
     50%  {background-color:#3E7B7B; left:100%; top:100%;}
-    75%  {background-color:#3E3F7B; left:20px; top:100%;}
-    100% {background-color:#7B3E79; left:20px; top:20px;}
+    75%  {background-color:#3E3F7B; left:15px; top:100%;}
+    100% {background-color:#7B3E79; left:15px; top:15px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    0%  {background-color:#7B3E3E; left:20px; top:20px;}
-    25%  {background-color:#447B3E; left:100%; top:20px;}
+    0%  {background-color:#7B3E3E; left:15px; top:15px;}
+    25%  {background-color:#447B3E; left:100%; top:15px;}
     50%  {background-color:#3E7B7B; left:100%; top:100%;}
-    75%  {background-color:#3E3F7B; left:20px; top:100%;}
-    100% {background-color:#7B3E79; left:20px; top:20px;}
+    75%  {background-color:#3E3F7B; left:15px; top:100%;}
+    100% {background-color:#7B3E79; left:15px; top:15px;}
 }
