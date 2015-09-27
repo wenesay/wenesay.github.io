@@ -48,6 +48,7 @@ div.center {
     font-family: cursive;
     font-size: x-large;
     display:block;
+    overflow: hidden;
 }
 
 div.layer {
@@ -91,7 +92,7 @@ div.bottom {
     25%  {background-color:#447B3E; left:100%; top:25px;}
     50%  {background-color:#3E7B7B; left:100%; top:100%;}
     75%  {background-color:#3E3F7B; left:25px; top:100%;}
-    100% {background-color:#7B3E79; left:25px; top:25px;}
+    100% {background-color:#7B3E3E; left:25px; top:25px;}
 }
 
 @-webkit-keyframes rotate {
@@ -105,7 +106,7 @@ div.bottom {
     25%  {background-color:#447B3E; left:100%; top:25px;}
     50%  {background-color:#3E7B7B; left:100%; top:100%;}
     75%  {background-color:#3E3F7B; left:25px; top:100%;}
-    100% {background-color:#7B3E79; left:25px; top:25px;}
+    100% {background-color:#7B3E3E; left:25px; top:25px;}
 }
 @-moz-keyframes rotate {
     from {-moz-transform: rotate(359deg);}
@@ -117,7 +118,7 @@ div.bottom {
     25%  {background-color:#447B3E; left:100%; top:25px;}
     50%  {background-color:#3E7B7B; left:100%; top:100%;}
     75%  {background-color:#3E3F7B; left:25px; top:100%;}
-    100% {background-color:#7B3E79; left:25px; top:25px;}
+    100% {background-color:#7B3E3E; left:25px; top:25px;}
 }
 
 
