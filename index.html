@@ -6,10 +6,6 @@
       <link rel="icon" href="./favicon/animated_favicon.gif" type="image/gif" >
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="./css/style.css">
-      <script src="./js/jquery/1.8.3/jquery.min.js">//jQuery 1.8.3</script>
-      <script src="./js/01.js" type="text/javascript" async="true">//first-script</script>
-      <!-- <script src="./js/google-script.js" type="text/javascript" async="true">//google-script</script> -->
   </head>
   <body>
     <div class="sweeper"><div>+</div></div>
@@ -26,6 +22,18 @@
       </div>
     </div>
     <div class="center">
+      <script type="text/javascript">
+        (function() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = './js/main.js';
+            var h = document.getElementsByTagName('head')[0];
+            // h.parentNode.insertBefore(s, h);
+            h.appendChild(s);
+        })();
+      </script>
+      <!-- Ad Start -->
       <script type="text/javascript">
         sa_client = "82c8e4400564da737845bd0ccf8ce1ea";
         sa_code = "fba42bd52a541d8997d4b9ca30a59bf2";
@@ -46,8 +54,9 @@
         sa_radius = "0";
         sa_borderwidth = "1";
         sa_font = "0";
-        document.write(unescape("%3cscript type='text/javascript' src='"+sa_protocol+"://sa.entireweb.com/sense2.js'%3e%3c/script%3e"));
+        document.write(unescape("%3cscript type='text/javascript' src='" + sa_protocol + "://sa.entireweb.com/sense2.js'%3e%3c/script%3e"));
       </script>
+      <!-- Ad End -->
     </div>
   </body>
 </html>
