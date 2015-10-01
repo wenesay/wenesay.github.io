@@ -9,7 +9,7 @@ $(document).ready(function(){
     //     sizeBack,
     //     sizeMiddle,
     //     sizeFront;
-    $( "div.layer div" ).hover(
+    $( "div.layer" ).hover(
       function() {
         $( this ).removeClass( "hover" );
       }, function() {
