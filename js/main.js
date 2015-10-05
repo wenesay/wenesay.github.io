@@ -1,8 +1,8 @@
 //Define css file paths in array
-var cssFiles = [{path:"./css/style.css", id:"style"}];
-var jsFiles = [{path:"./js/jquery/1.8.3/jquery.min.js", async:true, id:"jquery", dependent:[
-  {path:"./js/01.js", async:true, id:"01"},
-  {path:"./js/google-script.js", async:true, id:"googleScript"}
+var cssFiles = [{path:"/css/style.css", id:"style"}];
+var jsFiles = [{path:"/js/jquery/1.8.3/jquery.min.js", async:true, id:"jquery", dependent:[
+  {path:"/js/01.js", async:true, id:"01"},
+  {path:"/js/google-script.js", async:true, id:"googleScript"}
 ]}];
 
 // Load all styles

@@ -7,6 +7,11 @@ body {
     width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
 div.sweeper {
     width: 25px;
     height: 25px;
