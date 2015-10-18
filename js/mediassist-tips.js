@@ -21,7 +21,10 @@ console.log(seedDatas);
   for (var i = 0, j = seedDatas.length; i < j; i++) {
     loadMediAssitsTips(seedDatas[i]);
   }
-  $('.pgwSlideshow').pgwSlideshow();
+  $('.pgwSlideshow').pgwSlideshow({
+    autoSlide : true,
+    intervalDuration: 60000
+  });
 });
 
 function loadMediAssitsTips (seedData){
