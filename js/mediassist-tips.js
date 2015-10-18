@@ -25,11 +25,11 @@ console.log(seedDatas);
 });
 
 function loadMediAssitsTips (seedData){
-  if(seedData.src != ''){
+  if(seedData!=null && seedData.src != ''){
     var img = document.createElement('img');
     img.src = seedData.src;
     img.alt = seedData.alt;
-    img.data-description = seedData.desc;
+    img.dataDescription = seedData.desc;
     var li = document.createElement('li');
     li.appendChild(img);
     $('ul#pgwSlideshow-ul').appendChild(li);
