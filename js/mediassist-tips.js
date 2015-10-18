@@ -26,10 +26,12 @@ $(document).ready(function() {
 
 function loadMediAssitsTips (seedData){
   if(seedData.src != ''){
+    var img = document.createElement('img');
+    img.src = seedData.src;
+    img.alt = seedData.alt;
+    img.data-description = seedData.desc;
     var li = document.createElement('li');
-    li.src = seedData.src;
-    li.alt = seedData.alt;
-    li.data-description = seedData.desc;
+    li.appendChild(img);
     $('ul#pgwSlideshow-ul').appendChild(li);
   }
 }
