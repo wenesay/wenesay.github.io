@@ -17,9 +17,9 @@ $(document).ready(function() {
     </a>
 </li>
 **/
-
-  for (var i = 0, j = seedData.length; i < j; i++) {
-    loadMediAssitsTips(seedData[i]);
+console.log(seedDatas);
+  for (var i = 0, j = seedDatas.length; i < j; i++) {
+    loadMediAssitsTips(seedDatas[i]);
   }
   $('.pgwSlideshow').pgwSlideshow();
 });
@@ -38,7 +38,7 @@ function loadMediAssitsTips (seedData){
 
 
 
-var seedData = [
+var seedDatas = [
   { src:"pages/mediassist/tips/tip-20150408.png", alt:"", desc:""},
   { src:"pages/mediassist/tips/tip-20150410.png", alt:"", desc:""},
   { src:"pages/mediassist/tips/tip-20150411.png", alt:"", desc:""},
