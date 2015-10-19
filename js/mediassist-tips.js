@@ -3,7 +3,7 @@ $(document).ready(function() {
     for (var i = 0, j = seedDatas.length; i < j; i++) {
       loadMediAssitsTips(seedDatas[i]);
     }
-    $('.pgwSlideshow').pgwSlideshow({
+    var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow({
       autoSlide : true,
       intervalDuration: 60000,
       afterSlide : function(id) { ga('send', 'pageview'); }
