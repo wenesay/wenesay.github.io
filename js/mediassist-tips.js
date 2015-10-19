@@ -5,7 +5,8 @@ $(document).ready(function() {
     }
     $('.pgwSlideshow').pgwSlideshow({
       autoSlide : true,
-      intervalDuration: 60000
+      intervalDuration: 60000,
+      afterSlide : function(id) { ga('send', 'pageview'); }
     });
   }
 });
