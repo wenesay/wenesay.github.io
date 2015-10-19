@@ -1,11 +1,13 @@
 $(document).ready(function() {
-  for (var i = 0, j = seedDatas.length; i < j; i++) {
-    loadMediAssitsTips(seedDatas[i]);
+  if(seedDatas != null && window.location == 'http://wenesay.in/pages/mediassist/tips.html'){
+    for (var i = 0, j = seedDatas.length; i < j; i++) {
+      loadMediAssitsTips(seedDatas[i]);
+    }
+    $('.pgwSlideshow').pgwSlideshow({
+      autoSlide : true,
+      intervalDuration: 60000
+    });
   }
-  $('.pgwSlideshow').pgwSlideshow({
-    autoSlide : true,
-    intervalDuration: 60000
-  });
 });
 
 function loadMediAssitsTips (seedData){
