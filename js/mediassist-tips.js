@@ -5,7 +5,7 @@ $(document).ready(function() {
     }
     var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow({
       autoSlide : true,
-      intervalDuration: 60000,
+      intervalDuration: 30000,
       afterSlide : function(id) { ga('send', 'pageview'); }
     });
     pgwSlideshow.displaySlide(Math.round(Math.random() * seedDatas.length));
