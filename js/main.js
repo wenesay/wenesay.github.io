@@ -4,9 +4,9 @@ var cssFiles = [
   {path:"/css/pgwslideshow/pgwslideshow.min.css", id:"pgwslideshow_style"}
 ];
 var jsFiles = [
+  {path:"/js/google-script.js", async:true, id:"googleScript"},
   {path:"/js/jquery/1.8.3/jquery.min.js", async:true, id:"jquery", dependent:[
     {path:"/js/01.js", async:true, id:"01"},
-    {path:"/js/google-script.js", async:true, id:"googleScript"},
     {path:"/js/pgwslideshow/pgwslideshow.min.js", async:true, id:"pgwslideshow_script", dependent:[
       {path:"/js/mediassist-tips.js", async:true, id:"mediassist_tips"}
     ]}
