@@ -8,6 +8,7 @@ $(document).ready(function() {
       intervalDuration: 60000,
       afterSlide : function(id) { ga('send', 'pageview'); }
     });
+    pgwSlideshow.displaySlide(Math.round(Math.random() * seedDatas.length));
   }
 });
 
