@@ -176,5 +176,20 @@ var seedDatas = [
   { src:"tips/tip-20151014.png", alt:"", desc:""},
   { src:"tips/tip-20151015.png", alt:"", desc:""},
   { src:"tips/tip-20151016.png", alt:"", desc:""},
-  { src:"tips/tip-20151019.png", alt:"", desc:""}
+  { src:"tips/tip-20151019.png", alt:"", desc:""},
+  { src:"tips/tip-20151021.png", alt:"", desc:""},
+  { src:"tips/tip-20151022.png", alt:"", desc:""},
+  { src:"tips/tip-20151024.png", alt:"", desc:""},
+  { src:"tips/tip-20151026.png", alt:"", desc:""},
+  { src:"tips/tip-20151027.png", alt:"", desc:""},
+  { src:"tips/tip-20151029.png", alt:"", desc:""},
+  { src:"tips/tip-20151030.png", alt:"", desc:""},
+  { src:"tips/tip-20151102.png", alt:"", desc:""},
+  { src:"tips/tip-20151105.png", alt:"", desc:""},
+  { src:"tips/tip-20151106.png", alt:"", desc:""},
+  { src:"tips/tip-20151107.png", alt:"", desc:""},
+  { src:"tips/tip-20151110.png", alt:"", desc:""},
+  { src:"tips/tip-20151111.png", alt:"", desc:""},
+  { src:"tips/tip-20151112.png", alt:"", desc:""},
+  { src:"tips/tip-20151113.png", alt:"", desc:""}
 ];
