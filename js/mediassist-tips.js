@@ -214,6 +214,9 @@ var seedDatas = [
   { src:"tips/tip-20151216.png", alt:"", desc:""},
   { src:"tips/tip-20151217.png", alt:"", desc:""},
   { src:"tips/tip-20151218.png", alt:"", desc:""},
-  { src:"tips/tip-20151219.png", alt:"", desc:""}
+  { src:"tips/tip-20151219.png", alt:"", desc:""},
+  { src:"tips/tip-20151224.png", alt:"", desc:""},
+  { src:"tips/tip-20151225.png", alt:"", desc:""},
+  { src:"tips/tip-20151226.jpg", alt:"", desc:""}
   
 ];
